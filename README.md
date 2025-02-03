@@ -161,5 +161,3 @@
 - Automate CI/CD pipelines efficiently.
 - Secure and scale Jenkins for enterprise use.
 - Monitor and optimize build processes.
-
-Would you like a **detailed hands-on project** to apply these skills? 🚀

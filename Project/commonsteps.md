@@ -1,11 +1,4 @@
-Sure! Here's your **complete updated Markdown file** including the Docker installation and Jenkins-Docker integration steps. Everything is written in a clean, step-by-step style for learning and practicing.
-
----
-
-## 📘 Jenkins + Docker Setup Practice Notes (Markdown Format)
-
-````markdown
-# 🧰 Jenkins Installation & Docker Integration on Ubuntu EC2
+# common steps: Configure Jenkins with Docker Agents on Ubuntu EC2 for CI/CD Pipelines
 
 These are my personal notes while learning how to set up Jenkins and use Docker agents on a single Ubuntu EC2 instance.
 
@@ -28,7 +21,7 @@ ssh -i "your-key.pem" ubuntu@<your-ec2-public-ip>
 
 ## ☕ Step 3: Install Java (Jenkins Prerequisite)
 
-> Jenkins requires Java to run.
+Jenkins requires Java to run.
 
 ```bash
 sudo apt update
@@ -139,9 +132,7 @@ sudo systemctl restart docker
 
 2. Under the **Available** tab, search and install:
 
-   * `Docker plugin`
    * `Docker Pipeline`
-   * `Docker Commons Plugin`
 
 3. Restart Jenkins:
 
@@ -156,3 +147,14 @@ sudo systemctl restart jenkins
 
 ---
 
+✅ **Done! Jenkins is now integrated with Docker.**
+
+You’re ready to start creating Docker-based pipelines in Jenkins.
+
+Next steps:
+
+* Connect Jenkins to GitHub (webhook)
+* Write a Jenkinsfile
+* Use Docker agents in the pipeline
+
+---

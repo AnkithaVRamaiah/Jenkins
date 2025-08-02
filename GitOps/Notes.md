@@ -23,7 +23,7 @@ Think of GitOps like this:
 * When it detects changes in Git, it **automatically syncs** the Kubernetes cluster to match the Git state.
 * If someone tries to manually change something directly on the Kubernetes cluster, **Argo CD will detect it** and automatically roll it back to match the state defined in Git.
 
-![alt text](image.png)
+![alt text](images/image.png)
 ---
 
 # 🧱 GitOps Principles (Core Concepts)
@@ -87,7 +87,7 @@ Refer: https://argo-cd.readthedocs.io/en/stable/developer-guide/architecture/com
 | **Git Repository**         | This is where all your application manifests (YAML files) are stored. Git is the **source of truth**. |
 | **Kubernetes Cluster**     | The place where the applications are actually deployed and running. 
 
-![alt text](<argocd components.png>)
+![alt text](<images/argocd components.png>)
 
 
 ### 🔁 How It Works (Step-by-Step)

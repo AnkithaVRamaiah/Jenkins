@@ -1,4 +1,4 @@
-# Project Title: Multi-Cluster GitOps Deployment using Argo CD (Hub-Spoke Model)
+# Project Title: Multi-Cluster Deployment using Argo CD (Hub-Spoke Model)
 
 ---
 
@@ -222,3 +222,4 @@ Repeat again for second spoke cluster.
 * Apps deployed from Git, synced automatically
 * No manual shell scripting
 * Full GitOps workflow using hub-spoke model
+

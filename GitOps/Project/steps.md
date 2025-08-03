@@ -22,12 +22,6 @@ That's where **Argo CD** comes in.
 Argo CD is a GitOps tool for Kubernetes.
 It ensures your cluster state (deployments, services, configs) is always in **sync with your Git repo**.
 
-**Think of it as:**
-
-> Git = Source of Truth
-> Argo CD = Git Watchdog 🐶
-> Cluster = Playground
-
 ---
 
 ### 📦 What You'll Learn
@@ -222,4 +216,5 @@ Repeat again for second spoke cluster.
 * Apps deployed from Git, synced automatically
 * No manual shell scripting
 * Full GitOps workflow using hub-spoke model
+
 
